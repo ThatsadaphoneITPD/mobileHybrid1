@@ -86,7 +86,7 @@ const EditTrip = ({ navigation, route }) => {
       } else if (!description) {
         Toast("Description is Empty, pls fulfill");
       } else {
-        Alert.alert("Add New Trip", message, [
+        Alert.alert("Edit Trip", message, [
           {
             text: "Yes",
             onPress: () => editTripNew(),
